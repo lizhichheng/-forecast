@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluee"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:alpha="2"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/_date"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text=""
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/nav_button"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/buttonphoto">
+        </Button>
+
+        <TextView
+            android:id="@+id/_location"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textColor="#fff"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/WeatherPicture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bluee" />
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        tools:context=".MainActivity"
+        android:layout_marginLeft="45dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_marginLeft="25dp"
+            android:textColor="#fff"
+            android:textSize="120dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="22dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="℃"
+                android:textSize="35dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/_TimeState"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text= " "
+                android:textSize="35dp"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/_mintemperature"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#fff"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="/"
+                android:textColor="#fff"
+                android:textSize="25dp"/>
+            <TextView
+                android:id="@+id/_maxtemperature"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#fff"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="℃"
+                android:textColor="#fff"
+                android:textSize="25dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/_timeStatepro"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" "
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+           <TextView
+                android:id="@+id/_wind"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:text=" "
+                android:textSize="25dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="风"
+                android:textSize="25dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/_windClass"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="25dp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="级"
+                android:textSize="25dp"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
